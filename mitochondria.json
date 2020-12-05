@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {"id": "Pyruvate", "group": 1},
+    {"id": "ACoA", "group": 1},
+    {"id": "Citrate", "group": 8},
+    {"id": "OXA", "group": 8},
+    {"id": "alfa-glutarate", "group": 8}
+  ],
+  "links": [
+    {"source": "Pyruvate", "target": "Citrate", "value": 1},
+    {"source": "Citrate", "target": "alfa-glutarate", "value": 1}
+  ]
+}
