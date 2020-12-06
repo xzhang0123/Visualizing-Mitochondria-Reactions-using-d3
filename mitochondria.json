@@ -15,8 +15,8 @@
   "links": [
     {"source": "Pyruvate", "target": "ACoA", "value": 1},
     {"source": "ACoA", "target": "Citrate", "value": 1},
-    {"source": "Citrate", "target": "AKG", "value": 1},
-    {"source": "AKG", "target": "SCoA", "value": 1},
+    {"source": "Citrate", "target": "AKG", "value": 10},
+    {"source": "AKG", "target": "SCoA", "value": 100},
     {"source": "SCoA", "target": "SUC", "value": 1},    
     {"source": "SUC", "target": "FUM", "value": 1},  
     {"source": "FUM", "target": "Malate", "value": 1},  
