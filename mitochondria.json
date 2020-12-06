@@ -4,7 +4,7 @@
     {"id": "ACoA", "group": 1},
     {"id": "Citrate", "group": 8},
     {"id": "OXA", "group": 8},    
-    {"id": "SCoa", "group": 8},
+    {"id": "SCoA", "group": 8},
     {"id": "Succinate", "group": 8},
     {"id": "FUM", "group": 8},
     {"id": "AKG", "group": 8},
