@@ -10,17 +10,22 @@
     {"id": "AKG", "group": 8},
     {"id": "Malate", "group": 1},    
     {"id": "GLU", "group": 1},
-    {"id": "Aspartate", "group": 1}
+    {"id": "Glutamin", "group": 1},
+    {"id": "Aspartate", "group": 1},
+    {"id": "LAC", "group": 1}
   ],
   "links": [
     {"source": "Pyruvate", "target": "ACoA", "value": 1},
+    {"source": "OXA", "target": "Citrate", "value": 10},
     {"source": "ACoA", "target": "Citrate", "value": 1},
     {"source": "Citrate", "target": "AKG", "value": 10},
-    {"source": "AKG", "target": "SCoA", "value": 100},
+    {"source": "AKG", "target": "SCoA", "value": 10},
     {"source": "SCoA", "target": "SUC", "value": 1},    
     {"source": "SUC", "target": "FUM", "value": 1},  
     {"source": "FUM", "target": "Malate", "value": 1},  
     {"source": "Malate", "target": "OXA", "value": 1},    
-    {"source": "GLU", "target": "AKG", "value": 1}
+    {"source": "GLU", "target": "AKG", "value": 1},
+    {"source": "LAC", "target": "Pyruvate", "value": 1},
+    {"source": "Glutamin", "target": "GLU", "value": 1}
   ]
 }
