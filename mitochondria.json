@@ -3,11 +3,29 @@
     {"id": "Pyruvate", "group": 1},
     {"id": "ACoA", "group": 1},
     {"id": "Citrate", "group": 8},
-    {"id": "OXA", "group": 8},
-    {"id": "alfa-glutarate", "group": 8}
+    {"id": "OXA", "group": 8},    
+    {"id": "SCoa", "group": 8},
+    {"id": "Succinate", "group": 8},
+    {"id": "FUM", "group": 8},
+    {"id": "AKG", "group": 8}
+    {"id": "Malate", "group": 1},    
+    {"id": "Glutamate", "group": 1},
+    {"id": "Aspartate", "group": 1},
+
   ],
   "links": [
-    {"source": "Pyruvate", "target": "Citrate", "value": 1},
-    {"source": "Citrate", "target": "alfa-glutarate", "value": 1}
+    {"source": "Pyruvate", "target": "ACoA", "value": 1},
+    {"source": "ACoA", "target": "Citrate", "value": 1},
+    {"source": "Citrate", "target": "AKG", "value": 1}
+    {"source": "AKG", "target": "ACoA", "value": 1},
+    {"source": "Pyruvate", "target": "SCoA", "value": 1},    
+    {"source": "SCoA", "target": "SUC", "value": 1},    
+    {"source": "SUC", "target": "FUM", "value": 1},  
+    {"source": "FUM", "target": "Malate", "value": 1},  
+    {"source": "Malate", "target": "OXA", "value": 1},    
+    {"source": "GLU", "target": "AKG", "value": 1},    
+    {"source": "Pyruvate", "target": "ACoA", "value": 1},    
+    {"source": "Pyruvate", "target": "ACoA", "value": 1},   
+    {"source": "Pyruvate", "target": "ACoA", "value": 1},
   ]
 }
