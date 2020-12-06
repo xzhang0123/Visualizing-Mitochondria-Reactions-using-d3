@@ -10,8 +10,7 @@
     {"id": "AKG", "group": 8}
     {"id": "Malate", "group": 1},    
     {"id": "Glutamate", "group": 1},
-    {"id": "Aspartate", "group": 1},
-
+    {"id": "Aspartate", "group": 1}
   ],
   "links": [
     {"source": "Pyruvate", "target": "ACoA", "value": 1},
@@ -26,6 +25,6 @@
     {"source": "GLU", "target": "AKG", "value": 1},    
     {"source": "Pyruvate", "target": "ACoA", "value": 1},    
     {"source": "Pyruvate", "target": "ACoA", "value": 1},   
-    {"source": "Pyruvate", "target": "ACoA", "value": 1},
+    {"source": "Pyruvate", "target": "ACoA", "value": 1}
   ]
 }
