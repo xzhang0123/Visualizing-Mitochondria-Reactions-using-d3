@@ -13,7 +13,7 @@
     {"id": "Glutamin", "group": 1},
     {"id": "Aspartate", "group": 1},
     {"id": "LAC", "group": 1},
-{"id": "GOT", "group": 2},
+{"id": "GOT", "group": 2}
   ],
   "links": [
     {"source": "Pyruvate", "target": "ACoA", "value": 1},
@@ -31,6 +31,6 @@
 {"source": "OXA", "target": "GOT", "value": 1},
 {"source": "GLU", "target": "GOT", "value": 1},
 {"source": "GOT", "target": "AKG", "value": 1},
-{"source": "GOT, "target": "Aspartate", "value": 1},
+{"source": "GOT, "target": "Aspartate", "value": 1}
   ]
 }
