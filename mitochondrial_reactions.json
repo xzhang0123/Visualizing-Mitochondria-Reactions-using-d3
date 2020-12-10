@@ -50,7 +50,7 @@
     {"id": FADH2", "group": 1},
     {"id": 2CytCo", "group": 1},
     {"id": CytCr", "group": 1},
-    {"id": CytCo", "group": 1},
+    {"id": CytCo", "group": 1}
   ],
   "links": [
     {"source": "Pyruvate", "target": "ACoA", "value": 1},
