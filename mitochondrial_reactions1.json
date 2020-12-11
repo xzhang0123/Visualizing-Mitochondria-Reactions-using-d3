@@ -67,7 +67,7 @@
     {"id": "CV","group": 20},
     {"id": "MAS","group": 15},
     {"id": "ANT","group": 15},
-    {"id": "PYRT","group": 15},
+    {"id": "PYRT","group": 15}
   ],
   "links": [
     {"source": "GLC", "target": "HK", "value": 2},
