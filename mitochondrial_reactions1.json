@@ -64,7 +64,10 @@
     {"id": "CII","group": 20},
     {"id": "CIII","group": 20},
     {"id": "CIV","group": 20},
-    {"id": "CV","group": 20}
+    {"id": "CV","group": 20},
+    {"id": "MAS","group": 15},
+    {"id": "ANT","group": 15},
+    {"id": "PYRT","group": 15},
   ],
   "links": [
     {"source": "GLC", "target": "HK", "value": 2},
@@ -158,6 +161,17 @@
     {"source": "CIV", "target": "CytCo", "value": 1},
     {"source": "ADPm", "target": "CV", "value": 1},
     {"source": "Pim", "target": "CV", "value": 1},
-    {"source": "CV", "target": "ATPm", "value": 1}
+    {"source": "CV", "target": "ATPm", "value": 1},
+    {"source": "NADHc", "target": "MAS", "value": 1},
+    {"source": "MAS", "target": "NADHm", "value": 1},
+    {"source": "NADm", "target": "MAS", "value": 1},
+    {"source": "MAS", "target": "NADHc", "value": 1},
+    {"source": "ADPc", "target": "ANT", "value": 1},
+    {"source": "ATPm", "target": "ANT", "value": 1},
+    {"source": "ANT", "target": "ATPc", "value": 1},
+    {"source": "ANT", "target": "ADPm", "value": 1},
+    {"source": "PYRc", "target": "PYRT", "value": 1},
+    {"source": "PYRT", "target": "PYRm", "value": 1}
+    
   ]
 }
