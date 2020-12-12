@@ -165,7 +165,7 @@
     {"source": "NADHc", "target": "MAS", "value": 1},
     {"source": "MAS", "target": "NADHm", "value": 1},
     {"source": "NADm", "target": "MAS", "value": 1},
-    {"source": "MAS", "target": "NADHc", "value": 1},
+    {"source": "MAS", "target": "NADc", "value": 1},
     {"source": "ADPc", "target": "ANT", "value": 1},
     {"source": "ATPm", "target": "ANT", "value": 1},
     {"source": "ANT", "target": "ATPc", "value": 1},
